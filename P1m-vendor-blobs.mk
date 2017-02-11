@@ -223,6 +223,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
     vendor/lenovo/P1m/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/lenovo/P1m/proprietary/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
+    vendor/lenovo/P1m/proprietary/media/mono.cnt:system/media/mono.cnt \
+    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+    vendor/lenovo/P1m/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
+    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
     vendor/lenovo/P1m/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
     vendor/lenovo/P1m/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/lenovo/P1m/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
@@ -242,7 +246,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/lenovo/P1m/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/lenovo/P1m/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
+    vendor/lenovo/P1m/proprietary/lib/libtfa9897_interface.so:system/lib/libtfa9897_interface.so \
     vendor/lenovo/P1m/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
+    vendor/lenovo/P1m/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
+    vendor/lenovo/P1m/proprietary/lib64/libtfa9897_interface.so:system/lib64/libtfa9897_interface.so \
     vendor/lenovo/P1m/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
     vendor/lenovo/P1m/proprietary/lib64/libmmsdkservice.so:system/lib64/libmmsdkservice.so \
     vendor/lenovo/P1m/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
@@ -421,9 +428,4 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    vendor/lenovo/P1m/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf
+    vendor/lenovo/P1m/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so 
