@@ -137,6 +137,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
     vendor/lenovo/P1m/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/lenovo/P1m/proprietary/lib64/libmal.so:system/lib64/libmal.so \
+    vendor/lenovo/P1m/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
+    vendor/lenovo/P1m/proprietary/etc/ft5446_pard.ini:system/etc/ft5446_pard.ini \
+    vendor/lenovo/P1m/proprietary/etc/oufei_black_pard.ini:system/etc/oufei_black_pard.ini \
+    vendor/lenovo/P1m/proprietary/etc/oufei_white_pard.ini:system/etc/oufei_white_pard.ini \
+    vendor/lenovo/P1m/proprietary/etc/shenyue_white_pard.ini:system/etc/shenyue_white_pard.ini \
     vendor/lenovo/P1m/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/lenovo/P1m/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/lenovo/P1m/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
@@ -366,7 +371,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/lenovo/P1m/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
     vendor/lenovo/P1m/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
+    vendor/lenovo/P1m/proprietary/lib/libm.so:system/lib/libm.so \
     vendor/lenovo/P1m/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
+    vendor/lenovo/P1m/proprietary/lib64/libm.so:system/lib64/libm.so \
     vendor/lenovo/P1m/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/lenovo/P1m/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
     vendor/lenovo/P1m/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
@@ -428,4 +435,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
+    vendor/lenovo/P1m/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
+    vendor/lenovo/P1m/proprietary/lib/libSonyIMX230PdafLibrary:system/lib/libSonyIMX230PdafLibrary \
+    vendor/lenovo/P1m/proprietary/lib64/libSonyIMX230PdafLibrary:system/lib64/libSonyIMX230PdafLibrary \
     vendor/lenovo/P1m/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so 
