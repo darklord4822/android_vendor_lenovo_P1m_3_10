@@ -437,6 +437,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/lenovo/P1m/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
-    vendor/lenovo/P1m/proprietary/lib/libSonyIMX230PdafLibrary:system/lib/libSonyIMX230PdafLibrary \
-    vendor/lenovo/P1m/proprietary/lib64/libSonyIMX230PdafLibrary:system/lib64/libSonyIMX230PdafLibrary \
+    vendor/lenovo/P1m/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+    vendor/lenovo/P1m/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
     vendor/lenovo/P1m/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so 
+
