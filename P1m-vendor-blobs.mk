@@ -198,8 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/lenovo/P1m/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/lenovo/P1m/proprietary/bin/permission_check:system/bin/permission_check \
-    vendor/lenovo/P1m/proprietary/bin/pppd:system/bin/pppd \
-    vendor/lenovo/P1m/proprietary/bin/pppd_dt:system/bin/pppd_dt \
     vendor/lenovo/P1m/proprietary/bin/program_binary_service:system/bin/program_binary_service \
     vendor/lenovo/P1m/proprietary/bin/qmcX983d:system/bin/qmcX983d \
     vendor/lenovo/P1m/proprietary/bin/s62xd:system/bin/s62xd \
