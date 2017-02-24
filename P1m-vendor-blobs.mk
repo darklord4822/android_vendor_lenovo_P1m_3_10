@@ -42,8 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libcamera_client_mtk.so:system/lib64/libcamera_client_mtk.so \
     vendor/lenovo/P1m/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
-    vendor/lenovo/P1m/proprietary/lib/hw/mmsdk.default.so:system/lib/hw/mmsdk.default.so \
-    vendor/lenovo/P1m/proprietary/lib64/hw/mmsdk.default.so:system/lib64/hw/mmsdk.default.so \
     vendor/lenovo/P1m/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/lenovo/P1m/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
@@ -122,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/hw/gps.mt6735.so:system/lib64/hw/gps.mt6735.so \
     vendor/lenovo/P1m/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/lenovo/P1m/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
+    vendor/lenovo/P1m/proprietary/bin/pq:system/bin/pq \
     vendor/lenovo/P1m/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
     vendor/lenovo/P1m/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/lenovo/P1m/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
@@ -224,8 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/lenovo/P1m/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
-    vendor/lenovo/P1m/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    vendor/lenovo/P1m/proprietary/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
     vendor/lenovo/P1m/proprietary/media/mono.cnt:system/media/mono.cnt \
     vendor/lenovo/P1m/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/lenovo/P1m/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
@@ -352,7 +349,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/lenovo/P1m/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/lenovo/P1m/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
+    vendor/lenovo/P1m/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
     vendor/lenovo/P1m/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
+    vendor/lenovo/P1m/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
     vendor/lenovo/P1m/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib64/hw/hwcomposer.mt6735.so:system/lib64/hw/hwcomposer.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib/libbwc.so:system/lib/libbwc.so \
