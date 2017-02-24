@@ -220,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
+    vendor/lenovo/P1m/proprietary/lib/hw/radio.fm.mt6735.so:system/lib/hw/radio.fm.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
     vendor/lenovo/P1m/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/lenovo/P1m/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
