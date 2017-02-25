@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/lenovo/P1m/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/lenovo/P1m/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
+    vendor/lenovo/P1m/proprietary/bin/aee:system/bin/aee \
     vendor/lenovo/P1m/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/lenovo/P1m/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/lenovo/P1m/proprietary/bin/akmd8975:system/bin/akmd8975 \
@@ -183,19 +184,31 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
     vendor/lenovo/P1m/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
+    vendor/lenovo/P1m/proprietary/bin/lsm303md:system/bin/lsm303md \
+    vendor/lenovo/P1m/proprietary/bin/mc6420d:system/bin/mc6420d \
     vendor/lenovo/P1m/proprietary/bin/md_ctrl:system/bin/md_ctrl \
+    vendor/lenovo/P1m/proprietary/bin/mdlogger:system/bin/mdlogger \
+    vendor/lenovo/P1m/proprietary/bin/memsicd:system/bin/memsicd \
+    vendor/lenovo/P1m/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
+    vendor/lenovo/P1m/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
     vendor/lenovo/P1m/proprietary/bin/msensord:system/bin/msensord \
     vendor/lenovo/P1m/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/lenovo/P1m/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/lenovo/P1m/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/lenovo/P1m/proprietary/bin/orientationd:system/bin/orientationd \
+    vendor/lenovo/P1m/proprietary/bin/permission_check:system/bin/permission_check \
     vendor/lenovo/P1m/proprietary/bin/program_binary_service:system/bin/program_binary_service \
+    vendor/lenovo/P1m/proprietary/bin/qmcX983d:system/bin/qmcX983d \
+    vendor/lenovo/P1m/proprietary/bin/s62xd:system/bin/s62xd \
+    vendor/lenovo/P1m/proprietary/bin/sn:system/bin/sn \
     vendor/lenovo/P1m/proprietary/bin/terservice:system/bin/terservice \
     vendor/lenovo/P1m/proprietary/bin/thermal:system/bin/thermal \
     vendor/lenovo/P1m/proprietary/bin/thermald:system/bin/thermald \
     vendor/lenovo/P1m/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+    vendor/lenovo/P1m/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/lenovo/P1m/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/lenovo/P1m/proprietary/bin/wmt_loader:system/bin/wmt_loader \
+    vendor/lenovo/P1m/proprietary/bin/xlog:system/bin/xlog \
     vendor/lenovo/P1m/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/lenovo/P1m/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/lenovo/P1m/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
